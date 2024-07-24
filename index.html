@@ -8,20 +8,42 @@
         <title>Decodificador</title>
     </head>
     <body>
-        <div>
-            <textarea></textarea>
-        </div>
-        <div>
-            <div>
-                <button></button>
+        <div class="container">
+            <div class="a">
+                <img src="./images/a.png" alt="Logo">
             </div>
-            <div>
-                <button></button>
+            <div class="principal">
+                <div class="texto">
+                    <input type="text" id="texto" placeholder="Digite seu texto">
+                </div>
+                <div class="principal__botoes">
+                    <div class="aviso">
+                        <img src="./images/exclamacao.png" alt="Exclamação">
+                        <p class="aviso1">Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <div class="botoes">
+                        <button class="botao" id="criptografar">Criptografar</button>
+                        <button class="botao" id="descriptografar">Descriptografar</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div>
-            <img src="" alt="">
-            <p></p>
+            <div class="mensagem">
+                <div class="procurando">
+                    <img src="./images/procurando.png" alt="Procurando">
+                    <div class="frases">
+                        <p class="frase1">Nenhuma mensagem encontrada</p>
+                        <p class="frase2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="codificado">
+                <div class="texto_codificado">
+                    <p id="texto_codificado">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit. Libero, sodales duis fames id diam feugiat aliquet non egestas.</p>
+                </div>
+                <div>
+                    <button class="botao" id="copiar">Copiar</button>
+                </div>
+            </div>
         </div>
         <footer> 
             <p>Desenvolvido por Felipe Rocha Barros.</p>

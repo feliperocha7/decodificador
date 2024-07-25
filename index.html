@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="./functions.js"></script>
         <title>Decodificador</title>
     </head>
     <body>
@@ -22,12 +23,12 @@
                         <p class="aviso1">Apenas letras minúsculas e sem acento.</p>
                     </div>
                     <div class="botoes">
-                        <button class="botao" id="criptografar">Criptografar</button>
-                        <button class="botao" id="descriptografar">Descriptografar</button>
+                        <button class="botao" id="criptografar" onclick="encriptar()">Criptografar</button>
+                        <button class="botao" id="descriptografar" onclick="desencriptar()">Descriptografar</button>
                     </div>
                 </div>
             </div>
-            <div class="mensagem">
+            <div class="mensagem" id="mensagem">
                 <div class="procurando">
                     <img src="./images/procurando.png" alt="Procurando">
                     <div class="frases">
@@ -36,12 +37,12 @@
                     </div>
                 </div>
             </div>
-            <div class="codificado">
-                <div class="texto_codificado">
-                    <p id="texto_codificado">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit. Libero, sodales duis fames id diam feugiat aliquet non egestas.</p>
+            <div class="codificado" id="codificado">
+                <div class="texto_codificado" id="texto_codificado">
+                    <p id="texto_codificado1"></p>
                 </div>
                 <div>
-                    <button class="botao" id="copiar">Copiar</button>
+                    <button class="botao" id="copiar" onclick="copiar()">Copiar</button>
                 </div>
             </div>
         </div>

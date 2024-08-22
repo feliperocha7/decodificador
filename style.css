@@ -25,11 +25,11 @@ body{
     margin-top: 168px;
 }
 
-input{
+textarea{
     all: unset;
 }
 
-input, button{
+textarea, button{
     width: 100%;
 }
 
@@ -82,9 +82,37 @@ input, button{
     color: #FFFFFF;
 }
 
+#criptografar:hover{
+    border: solid 1px #06254b;
+    background: #0f53a5;
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#criptografar:active{
+    transform: scale(0.8);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
 #descriptografar{
     background: #D8DFE8;
     color: #0A3871;
+}
+
+#descriptografar:hover{
+    border: solid 1px #06254b;
+    background: #f9fbfd;
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#descriptografar:active{
+    transform: scale(0.8);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .mensagem{
@@ -133,6 +161,19 @@ input, button{
 
 #copiar{
     background: #FFFFFF;
+}
+
+#copiar:hover{
+    border: solid 1px #06254b;
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#copiar:active{
+    transform: scale(0.8);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .codificado{
